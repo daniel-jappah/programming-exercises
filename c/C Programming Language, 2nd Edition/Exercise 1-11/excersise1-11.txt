@@ -1,0 +1,12 @@
+Name: Daniel Jappah
+Date:3/17/17
+Notes: Exercise 1-11
+
+Q: How would you test the word count program? What kinds of input are most
+likely to uncover bugs if there are any?
+
+A: By running the program while inputting a string that contains at least 1 of
+every possible ascii character and check the output for errors. Either single
+character words or escape characters that affect the text's display but
+and are not accounted for by the if condition that changes the word state from
+IN to OUT;
